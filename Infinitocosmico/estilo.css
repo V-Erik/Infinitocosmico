@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+header {
+    background-color: #1db954; /* Color verde de Spotify */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos de la galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    width: 300px; /* Ajustar el tamaño de las imágenes */
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
